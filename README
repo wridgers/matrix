@@ -1,8 +1,19 @@
-matrix
--=-=-=-=-=-=-=-
-
 matrix is a simple implementation of ncurses, that displays
 falling matrix code in the users terminal.
 
 It works best with unicode terminals, or the colours will 
 appear incorrect.
+
+Compiling:
+This project uses CMake. You must have gcc, libncurses, and CMake to compile.
+
+1. cmake .
+2. make
+3. ./matrix
+
+Options:
+
+Try ./matrix (red|green|blue|grey).
+
+
+Enjoy.
