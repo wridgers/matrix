@@ -1,15 +1,9 @@
 // Falling "matrix" code.
 // A simple implementation of ncurses.
+//
+// vim README for help.
 // 
 // mindfuzz.net
-//
-// Compile like so:
-// gcc matrix.c -lncurses -o matrix
-//
-// Then execute
-// ./matrix (blue|red|green|grey)
-//
-// To exit ^C
 
 #include <sys/ioctl.h>
 #include <stdio.h>
