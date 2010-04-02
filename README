@@ -1,0 +1,8 @@
+matrix
+-=-=-=-=-=-=-=-
+
+matrix is a simple implementation of ncurses, that displays
+falling matrix code in the users terminal.
+
+It works best with unicode terminals, or the colours will 
+appear incorrect.
