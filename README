@@ -5,7 +5,7 @@ It works best with unicode terminals, or the colours will
 appear incorrect.
 
 Compiling:
-This project uses CMake. You must have gcc, libncurses, and CMake to compile.
+Now using premake4 to build the project. Though it's pretty small... you can probably just use plain old gcc. ;)
 
 1. cmake .
 2. make
