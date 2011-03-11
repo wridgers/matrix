@@ -5,15 +5,10 @@ It works best with unicode terminals, or the colours will
 appear incorrect.
 
 Compiling:
-Now using premake4 to build the project. Though it's pretty small... you can probably just use plain old gcc. ;)
-
-1. cmake .
-2. make
-3. ./matrix
+1. gcc matrix.c -l ncurses -o matrix
 
 Options:
 
 Try ./matrix (red|green|blue|grey).
-
 
 Enjoy.
