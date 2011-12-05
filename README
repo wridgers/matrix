@@ -4,8 +4,7 @@ falling matrix code in the users terminal.
 It works best with unicode terminals, or the colours will 
 appear incorrect.
 
-Compiling:
-1. gcc matrix.c -l ncurses -o matrix
+To compile just run run make in the directory.
 
 Options:
 
